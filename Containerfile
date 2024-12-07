@@ -12,7 +12,7 @@ FROM ghcr.io/ublue-os/base-main:latest
 ## Install applications
 # Anything in Fedora
 
-RUN dnf5 install vlc neovim git  i3 i3-gaps i3lock i3status python3-i3ipc rofi dmenu feh nitrogen volumeicon pasystray tlp ranger
+RUN dnf5 install vlc neovim git i3 i3-gaps i3lock i3status rofi dmenu feh nitrogen volumeicon pasystray tlp ranger
 
 ## Add COPRs
 # RUN dnf copr enable (copr-author/name)
