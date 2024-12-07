@@ -19,5 +19,5 @@ RUN dnf5 install vlc neovim git i3-gaps i3lock i3status rofi dmenu feh nitrogen 
 # RUN dnf5 install thing-from-copr
 
 ## Manage services
-systemctl enable docker.service
+# systemctl enable docker.service
 # systemctl enable tlp.service
