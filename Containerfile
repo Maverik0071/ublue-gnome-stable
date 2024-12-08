@@ -7,7 +7,7 @@ FROM ghcr.io/ublue-os/base-main:latest
 ## Install a Desktop
 # Use `dnf5 group list` to see possible group packages to install, or choose them individually
 
-RUN dnf5 group install i3-gaps 
+RUN dnf5 group install i3 
 
 #kde-desktop kde-apps
 
