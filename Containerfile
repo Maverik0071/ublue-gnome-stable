@@ -1,4 +1,4 @@
-FROM ghcr.io/ublue-os/sway:latest
+FROM ghcr.io/wayblue/sway:latest
 
 ## Nvidia users use this instead
 # FROM ghcr.io/ublue-os/base-nvidia:latest
