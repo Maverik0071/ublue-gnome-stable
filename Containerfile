@@ -14,7 +14,7 @@ FROM ghcr.io/wayblueorg/sway:latest
 ## Install applications
 # Anything in Fedora
 
-RUN dnf5 install vlc neovim git feh nitrogen volumeicon pasystray tlp ranger NetworkManager-dmenu
+# RUN dnf5 install vlc neovim git feh nitrogen volumeicon pasystray tlp ranger NetworkManager-dmenu
 
 ## Add COPRs
 # RUN dnf copr enable (copr-author/name)
@@ -22,4 +22,4 @@ RUN dnf5 install vlc neovim git feh nitrogen volumeicon pasystray tlp ranger Net
 
 ## Manage services
 # systemctl enable docker.service
-systemctl enable tlp.service
+# systemctl enable tlp.service
