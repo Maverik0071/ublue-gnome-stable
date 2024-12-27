@@ -1,0 +1,3 @@
+# enter into the terminal for new image:
+# after registry add the image you are tyring to put in:
+rpm-ostree rebase ostree-unverified-registry:ghcr.io/maverik0071/ublue-swaywm:20241226
