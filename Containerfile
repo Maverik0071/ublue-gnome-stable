@@ -1,5 +1,4 @@
-FROM ghcr.io/wayblueorg/hyprland:latest
-
+FROM FROM ghcr.io/ublue-os/bluefin-dx:stable-daily-20241227
 
 ## Nvidia users use this instead
 # FROM ghcr.io/ublue-os/base-nvidia:latest
